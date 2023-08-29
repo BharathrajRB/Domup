@@ -1,0 +1,57 @@
+.one {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.left {
+    width: 60%;
+    border: solid 5vh lightgrey;
+    border-right: 0;
+}
+
+.right {
+    width: 40%;
+    border: solid 5vh lightgrey;
+    border-left: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 110px;
+}
+
+.profileimage {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.textboxstyle {
+    border: 0;
+    border-bottom: solid 1px;
+    border-color: lightgrey;
+}
+
+.createbuttonstyle {
+    color: white;
+    background-color:blue;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.signbuttonstyle {
+    padding: 15px;
+    border:1px solid blue;
+    cursor: pointer;
+    background-color: blue;
+    border-color: lightgrey;
+}
+*
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
